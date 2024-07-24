@@ -28,7 +28,7 @@ const showWinner =(userWin,userChoice,compChoice)=>{
         compScorePara.innerText =compScore;
         console.log("you lose!");
         msg.innerText=`You lose! ${compChoice} beats ${userChoice}`;
-        msg.style.backgroundColor="#e6fff2"
+        msg.style.backgroundColor="f72585"
     }
 }
 const playGame=(userChoice)=>{
